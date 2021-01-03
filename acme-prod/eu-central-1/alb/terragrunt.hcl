@@ -74,7 +74,7 @@ inputs = {
 
   target_groups = [
     {
-      name_prefix                        = "l1_"
+      name_prefix                        = "l1-"
       target_type                        = "lambda"
       lambda_multi_value_headers_enabled = true
     },
